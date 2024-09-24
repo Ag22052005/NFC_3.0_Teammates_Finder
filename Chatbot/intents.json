@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good day",
+        "Hey",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello, ready to find some teammates?",
+        "Hi there! Ready for your next game?",
+        "Good day! Let’s get you connected with some players."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Thanks, bye", "Bye"],
+      "responses": [
+        "Goodbye, and happy gaming!",
+        "See you next time! May your matches be victorious.",
+        "Bye! Come back anytime you need new teammates."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Much appreciated", "Thanks"],
+      "responses": [
+        "You're welcome! Enjoy your gaming sessions!",
+        "Happy to help! Have a great game!",
+        "Glad I could assist you. Good luck!"
+      ]
+    },
+    {
+      "tag": "find_teammates",
+      "patterns": [
+        "I want to find teammates",
+        "How do I find players for my game?",
+        "I need to team up with others",
+        "Can I find new teammates here?",
+        "Looking for people to play with"
+      ],
+      "responses": [
+        "You can find teammates on the Matchmaking Page.",
+        "Head over to the Matchmaking Page to find your next team.",
+        "Ready to find some players? Check the Matchmaking Page."
+      ]
+    },
+    {
+      "tag": "manage_game_sessions",
+      "patterns": [
+        "How do I manage my game sessions?",
+        "Can I view my game sessions?",
+        "Where can I manage my sessions?",
+        "How do I organize my games?"
+      ],
+      "responses": [
+        "You can manage your game sessions on the Game Sessions Page.",
+        "To view and organize your sessions, go to the Game Sessions Page.",
+        "All your sessions are under control on the Game Sessions Page."
+      ]
+    },
+    {
+      "tag": "real_time_chat",
+      "patterns": [
+        "Can I chat with my teammates?",
+        "Is there a way to communicate during a game?",
+        "How do I talk to my team?",
+        "Is there a chat feature?",
+        "Can we chat while playing?"
+      ],
+      "responses": [
+        "Yes, use the Chat Page to communicate with your teammates.",
+        "Real-time chat is available on the Chat Page.",
+        "Stay connected with your team using the Chat Page."
+      ]
+    },
+    {
+      "tag": "performance_metrics",
+      "patterns": [
+        "How can I see my performance?",
+        "Can I check my stats?",
+        "Where are my performance metrics?",
+        "How do I view my game stats?"
+      ],
+      "responses": [
+        "You can check your performance metrics on the Performance Page.",
+        "Your stats are displayed on the Performance Page.",
+        "View all your performance details on the Performance Page."
+      ]
+    },
+    {
+      "tag": "user_accounts",
+      "patterns": [
+        "How do I create an account?",
+        "I’m having trouble logging in",
+        "Can I update my profile?",
+        "How do I reset my password?"
+      ],
+      "responses": [
+        "To create an account, just go to the Register Page and follow the steps.",
+        "If you’re having trouble logging in, make sure your credentials are correct.",
+        "You can update your profile information in the Dashboard Page.",
+        "To reset your password, try the 'Forgot Password' option on the Login Page."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "How do I use this service?",
+        "I’m not sure what to do"
+      ],
+      "responses": [
+        "I’m here to help! What do you need assistance with?",
+        "Sure, I can help. What’s the issue you’re facing?",
+        "Let’s work through this together. What do you need help with?"
+      ]
+    }
+  ]
+}

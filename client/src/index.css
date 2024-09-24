@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.login-container {
+  background-image: url("./assets/images/Login_signup/ghost.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.register-container {
+  background-image: url("./assets/images/Login_signup/ghost.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}
